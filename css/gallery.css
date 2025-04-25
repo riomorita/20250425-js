@@ -1,0 +1,23 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+/* img {
+  max-width: 500px;
+} */
+
+.gallery {
+  columns: 4;
+  padding: 0 15px;
+}
+
+.gallery li {
+  margin-bottom: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
